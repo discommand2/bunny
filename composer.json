@@ -1,5 +1,5 @@
 {
-    "name": "bunny/bunny",
+    "name": "discommand2/bunny",
     "type": "library",
     "description": "Performant pure-PHP AMQP (RabbitMQ) sync/async (ReactPHP) library",
     "keywords": [
@@ -22,6 +22,10 @@
         {
             "name": "Jakub Kulhan",
             "email": "jakub.kulhan@gmail.com"
+        },
+        {
+            "name": "Russell Purinton",
+            "email": "russell.purinton@gmail.com"
         }
     ],
     "require": {
@@ -44,7 +48,9 @@
         }
     },
     "autoload-dev": {
-        "files": ["test/Library/functions.php"],
+        "files": [
+            "test/Library/functions.php"
+        ],
         "psr-4": {
             "Bunny\\": "test/Bunny/",
             "Bunny\\Test\\Library\\": "test/Library/"
